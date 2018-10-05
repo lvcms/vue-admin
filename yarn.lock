@@ -959,6 +959,22 @@ address@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/address/-/address-1.0.3.tgz#b5f50631f8d6cec8bd20c963963afb55e06cbce9"
 
+ag-grid-community@~19.0:
+  version "19.0.0"
+  resolved "https://registry.yarnpkg.com/ag-grid-community/-/ag-grid-community-19.0.0.tgz#b0909835c63bdeef54047bf27ab16a10fdf61ed0"
+
+ag-grid-enterprise@~19.0:
+  version "19.0.0"
+  resolved "https://registry.yarnpkg.com/ag-grid-enterprise/-/ag-grid-enterprise-19.0.0.tgz#ae8dcc5db81108e5344a45a28d06c242393c3384"
+
+ag-grid-vue@~19.0:
+  version "19.0.0"
+  resolved "https://registry.yarnpkg.com/ag-grid-vue/-/ag-grid-vue-19.0.0.tgz#cba1566c2e537154f8107793df5130d2eb8d2206"
+
+ag-grid@~18.1:
+  version "18.1.2"
+  resolved "https://registry.yarnpkg.com/ag-grid/-/ag-grid-18.1.2.tgz#d98b3dd824b9cb82d9f638e4bab5a5771513869b"
+
 ajv-errors@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/ajv-errors/-/ajv-errors-1.0.0.tgz#ecf021fa108fd17dfb5e6b383f2dd233e31ffc59"
@@ -4137,8 +4153,8 @@ json-stringify-safe@~5.0.1:
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
 
 json-vue-core@~1.0:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/json-vue-core/-/json-vue-core-1.0.9.tgz#4f4ee0dcd51c8f05610b4f8b74964d1d55d46f71"
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/json-vue-core/-/json-vue-core-1.0.10.tgz#950b5b413f18841339aba94c8c133026d303098f"
   dependencies:
     apollo-cache-inmemory "~1.2"
     apollo-client "~2.4"
@@ -4152,6 +4168,17 @@ json-vue-core@~1.0:
     vue-apollo "~3.0.0-beta"
     vue-router "~3.0"
     vuex "~3.0"
+
+json-vue-iview@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/json-vue-iview/-/json-vue-iview-1.0.6.tgz#5bd590722cad41b01d790a0535df09eb2fe5de9e"
+  dependencies:
+    ag-grid "~18.1"
+    ag-grid-community "~19.0"
+    ag-grid-enterprise "~19.0"
+    ag-grid-vue "~19.0"
+    iview "~3.1"
+    json-vue-core "~1.0"
 
 json3@^3.3.2:
   version "3.3.2"

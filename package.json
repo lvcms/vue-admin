@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "container-vue-iview": "^1.0.11",
+    "json-vue-iview": "^1.0.6",
     "vue": "^2.5.17"
   },
   "devDependencies": {
