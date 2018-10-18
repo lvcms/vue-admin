@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "container-vue-iview": "https://github.com/lvcms/container-vue-iview",
+    "filesize": "^3.6.1",
     "json-vue-iview": "https://github.com/lvcms/json-vue-iview",
     "vue": "^2.5.17"
   },
