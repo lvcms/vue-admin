@@ -971,10 +971,6 @@ ag-grid-vue@~19.0:
   version "19.0.0"
   resolved "https://registry.yarnpkg.com/ag-grid-vue/-/ag-grid-vue-19.0.0.tgz#cba1566c2e537154f8107793df5130d2eb8d2206"
 
-ag-grid@~18.1:
-  version "18.1.2"
-  resolved "https://registry.yarnpkg.com/ag-grid/-/ag-grid-18.1.2.tgz#d98b3dd824b9cb82d9f638e4bab5a5771513869b"
-
 ajv-errors@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/ajv-errors/-/ajv-errors-1.0.0.tgz#ecf021fa108fd17dfb5e6b383f2dd233e31ffc59"
@@ -1954,12 +1950,12 @@ constants-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/constants-browserify/-/constants-browserify-1.0.0.tgz#c20b96d8c617748aaf1c16021760cd27fcb8cb75"
 
-container-vue-iview@^1.0.11:
+"container-vue-iview@https://github.com/lvcms/container-vue-iview":
   version "1.0.11"
-  resolved "https://registry.yarnpkg.com/container-vue-iview/-/container-vue-iview-1.0.11.tgz#a6cb483bbf850d942e633f1885d8f6677cec6e8a"
+  resolved "https://github.com/lvcms/container-vue-iview#41dafa05ed11bc9e3f2ec18388da52740bb60d1d"
   dependencies:
     iview "~3.1"
-    json-vue-core "~1.0"
+    json-vue-core "https://github.com/lvcms/json-vue-core"
 
 content-disposition@0.5.2:
   version "0.5.2"
@@ -2994,6 +2990,10 @@ file-entry-cache@^2.0.0:
   dependencies:
     flat-cache "^1.2.1"
     object-assign "^4.0.1"
+
+file-icons-js@~1.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/file-icons-js/-/file-icons-js-1.0.3.tgz#d0765dc1d86aba4b2d7664a39e4ef7af9f12c5af"
 
 file-loader@^1.1.11:
   version "1.1.11"
@@ -4152,14 +4152,15 @@ json-stringify-safe@~5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
 
-json-vue-core@~1.0:
+"json-vue-core@https://github.com/lvcms/json-vue-core":
   version "1.0.10"
-  resolved "https://registry.yarnpkg.com/json-vue-core/-/json-vue-core-1.0.10.tgz#950b5b413f18841339aba94c8c133026d303098f"
+  resolved "https://github.com/lvcms/json-vue-core#dbc0b92f79fd531008cc9d6925e5eb7734184a43"
   dependencies:
     apollo-cache-inmemory "~1.2"
     apollo-client "~2.4"
     apollo-link-context "~1.0"
     apollo-link-http "~1.5"
+    file-icons-js "~1.0"
     font-awesome "~4.7"
     graphql "~14.0"
     graphql-tag "~2.10"
@@ -4169,16 +4170,15 @@ json-vue-core@~1.0:
     vue-router "~3.0"
     vuex "~3.0"
 
-json-vue-iview@^1.0.6:
+"json-vue-iview@https://github.com/lvcms/json-vue-iview":
   version "1.0.6"
-  resolved "https://registry.yarnpkg.com/json-vue-iview/-/json-vue-iview-1.0.6.tgz#5bd590722cad41b01d790a0535df09eb2fe5de9e"
+  resolved "https://github.com/lvcms/json-vue-iview#d8f6e5b0b696f762567a55e20b25a8e1349be0cd"
   dependencies:
-    ag-grid "~18.1"
     ag-grid-community "~19.0"
     ag-grid-enterprise "~19.0"
     ag-grid-vue "~19.0"
     iview "~3.1"
-    json-vue-core "~1.0"
+    json-vue-core "https://github.com/lvcms/json-vue-core"
 
 json3@^3.3.2:
   version "3.3.2"
